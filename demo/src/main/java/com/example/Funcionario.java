@@ -8,7 +8,7 @@ public class Funcionario {
 
     public Funcionario(String nome, String cargo, double salario){
         this.nome = nome;
-        this.cargo = cargo;
+        this.cargo = cargo; // Cargos = Vendedor, Gerente
         this.salario = salario;
     }
     public String getNome() {
